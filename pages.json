@@ -1,0 +1,70 @@
+{
+	"pages": [
+	{
+		"path":"pages/recommend/index",
+		"style": {
+			"navigationBarTitleText":"首页"
+		}
+	},
+	{
+		"path":"pages/find/index",
+		"style": {
+			"navigationBarTitleText":"发现"
+		}
+	}, {
+				"path": "pages/foodChat/index",
+				"style": {
+					"navigationBarTitleText": "食话"
+				}
+			},
+	
+			{
+				"path": "pages/my/index",
+				"style": {
+					"navigationBarTitleText": "个人中心"
+				}
+			}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"app-plus":{
+			"titleNView":false
+		}
+	},
+	"tabBar": {
+		"color":"#333333",
+		"selectedColor":"#E54A38",
+		"borderStyle":"black",
+		"backgroundColor":"#FFFFFF",
+		"list": [{
+				"pagePath": "pages/recommend/index",
+				"text": "推荐",
+				"iconPath": "static/image/tabbar/recommend.png",
+				"selectedIconPath": "static/image/tabbar/recommend_active.png"
+			},
+			{
+				"pagePath": "pages/find/index",
+				"text": "发现",
+				"iconPath": "static/image/tabbar/find.png",
+				"selectedIconPath": "static/image/tabbar/find_active.png"
+			},
+			{
+				"pagePath": "pages/foodChat/index",
+				"text": "食话",
+				"iconPath": "static/image/tabbar/foodChat.png",
+				"selectedIconPath": "static/image/tabbar/foodChat_active.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/image/tabbar/my.png",
+				"selectedIconPath": "static/image/tabbar/my_active.png"
+			}
+		]
+	}
+	
+}
